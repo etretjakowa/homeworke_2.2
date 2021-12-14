@@ -15,7 +15,6 @@ public class ServiceStation {
         System.out.println("Обслуживаем " + car.getModelName());
         for (int i = 0; i < car.getWheelsCount(); i++) {
             car.updateTyre();
-
         }
         car.checkEngine();
     }
